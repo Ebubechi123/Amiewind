@@ -1,0 +1,19 @@
+button.button{
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0px rgb(197, 4, 29);
+    cursor: pointer;
+    background-color: white;
+    border: .5px solid var(--main-color);
+    cursor: pointer;
+}
+
+
+button.button:hover{
+    color: whitesmoke;
+    background-color: var(--main-color);
+    border: .5px solid var(white);
+
+}

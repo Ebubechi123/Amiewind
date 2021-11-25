@@ -1,0 +1,116 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px ;
+    background: var(--main-color);
+    border: none;
+    outline: none;
+}
+
+ .logo{
+    flex-basis: 20%;
+    text-align: center;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 60%;
+    color: rgb(248, 248, 248);
+    font-size: .72rem;
+    font-weight: 600;
+}
+
+.nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 800px;
+}
+
+.nav ul li:hover{
+    color: rgb(175, 6, 147);
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: whitesmoke;
+}
+
+.nav .hireme{
+    flex-basis: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+
+.nav .hireme button{
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menuicon{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+.exit{
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: left;
+}
+  @media screen and (max-width: 768px){
+
+.navopen{
+transform: translateX(0%) !important;
+position: absolute;
+right: 0;
+height: 92vh;
+top: 0;
+background-color: var(--main-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transition: transform 0.5s ease-in;
+z-index: 999;
+position: fixed;
+min-height: 110vh;
+top: -10vh;
+}
+.navclosed{
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 0;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 999;
+    position: fixed;
+    min-height: 110vh;
+    top: -10vh;
+}
+
+  .menuicon,.exit{
+      display: block;
+  }
+  }
