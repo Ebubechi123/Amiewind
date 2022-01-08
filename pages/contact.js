@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import Form from '../Components/Form';
+import Hero from '../Components/Hero';
+import Contactcomponent from "../Components/Contact";
+import contactStyles from "../styles/Contact.module.css"
 const Contact = () => {
     return ( 
         <>
@@ -6,7 +10,12 @@ const Contact = () => {
      <title>AJWRITER-Contact Us</title>
      <meta name="keywords" content="digital marketing content writing blog"/>
    </Head>
-        <h1>Contact Page</h1>
+        <div>
+          <div>
+            <Hero text={"Contact Page"}/>
+          </div>
+          < Contactcomponent />
+        </div>
         </>
      );
 }

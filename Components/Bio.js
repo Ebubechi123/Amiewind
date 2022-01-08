@@ -1,8 +1,9 @@
+
 import Image from 'next/image';
 import Link from "next/link"
 import Styles from "../styles/CommonStyles.module.css";
 import BioStyles from "../styles/Bio.module.css";
-import image from "../public/30.png"
+import image from "../public/Image4.png"
 import Button from "./Button";
 const Bio = () => {
     return ( 
@@ -11,7 +12,7 @@ const Bio = () => {
         
             <div className={Styles.row}>
                 <div className={Styles.col}>
-                <Image className={BioStyles.image} src={image} width="400px" height="400px" alt="" />
+                <Image className={BioStyles.image} src={image} width="400px" height="400px"  />
                 </div>
                 <div className={Styles.col}>
                 <div className={BioStyles.title}>

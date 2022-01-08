@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from 'next/image'
-import image from "../public/Vector (1) (1).png"
+import image from "../public/Image3.png"
 import HeaderStyles from "../styles/Header.module.css";
 import Button from "./Button";
 
@@ -16,10 +16,10 @@ const Header = () => {
                <Button className={HeaderStyles.button}> <Link href="/contact">Lets Talk</Link></Button>
            </div>
            <div className={HeaderStyles.col2}> 
-               <Image className={HeaderStyles.image} src={image} alt="" />
+               <Image className={HeaderStyles.image} src={image}  />
             </div>
    <svg className={ HeaderStyles.svg} id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
-     <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" stroke-width="120" stroke-linecap="round"/>
+     <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" strokeWidth="120" strokeLinecap="round"/>
    </svg>
  </header>
         </div>

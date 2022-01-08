@@ -39,17 +39,7 @@ const Contact = () => {
             </div>
             <div className={ContactStyles.row}>
                 <div  className={ContactStyles.form_col}>
-                    <Form className={ContactStyles.form}>
-                        <label> Subject</label>
-                        <Input type="text" required/>
-                        <label> Your name</label>
-                        <Input type="name" required/>
-                        <label> Your email here</label>
-                        <Input type="email" required/>
-                        <label> Drop a message</label>
-                        <Textarea type="message" required className={ContactStyles.textarea}/>
-                        <Button>Send Me</Button>
-                    </Form>
+                    <Form className={ContactStyles.form} />
                 </div>
 
                 <div className={ContactStyles.contacts}>

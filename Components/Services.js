@@ -4,7 +4,6 @@ import svg2 from "../public/undraw_content_creator_re_pt5b.svg";
 import svg3 from "../public/undraw_mobile_marketing_re_p77p.svg";
 import Styles from "../styles/CommonStyles.module.css";
 import ServicesStyles from "../styles/Services.module.css"
-import { Book,Pen, Blog } from "../Components/Icons";
 import Card from './Card';
 const Sevices = () => {
 const [icons] = useState([
@@ -28,7 +27,7 @@ const [icons] = useState([
             <h2>Services</h2>
             </div>
             <div className={ Styles.subtitle}>
-            <p>What We Offer</p>
+            <p>What I Offer</p>
             </div>
             <div className={ Styles.text}>
             <p>
